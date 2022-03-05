@@ -1,0 +1,30 @@
+button {
+    box-shadow: 0;
+}
+
+.game-options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.user-choice-button {
+    padding: 5px 15px;
+    background-color: #e9f79e;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.158);
+}
+
+.option-image {
+    height: 300px;
+    width: 300px;
+}
+
+.rock-option,
+.paper-option,
+.scissor-option {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
